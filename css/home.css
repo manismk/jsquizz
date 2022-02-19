@@ -1,0 +1,17 @@
+.category--container {
+  padding: 3rem;
+}
+
+.card {
+  max-width: 20rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(0.95);
+}
+
+.card--content {
+  padding: 1rem 0.8rem;
+}

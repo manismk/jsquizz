@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Licorice&family=Rubik+Beastly&family=Sacramento&family=Shizuru&display=swap");
+@import url("https://fastart.netlify.app/css/fastart.css");
+
+:root {
+  --bg-color: #fefce8;
+  --primary--color: #fea620;
+  --primary--light: #fde68a;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: var(--bg-color);
+}
+
+header {
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.btn--primary {
+  background-color: var(--primary--color);
+  border-color: var(--primary--color);
+  color: var(--black);
+}
+
+.btn--primary:hover {
+  background-color: var(--primary--light);
+  color: var(--black);
+}
+
+.btn--primary:hover {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
