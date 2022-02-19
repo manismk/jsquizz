@@ -1,2 +1,3 @@
-# jsquizz
-Jsquizz is quiz app about javascirpt
+# jsQuizz
+
+JsQuizz is quiz app about javascirpt
