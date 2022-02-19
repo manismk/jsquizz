@@ -17,3 +17,9 @@
 .rules--container .btn {
   align-self: center;
 }
+
+@media only screen and (max-width: 520px) {
+  .rules--container {
+    margin: 2rem;
+  }
+}
