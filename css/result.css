@@ -1,0 +1,38 @@
+.result--container {
+  max-width: 30rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem auto;
+  box-shadow: 2px 3px 10px 0px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+}
+
+.quiz--option {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  background-color: var(--primary--light);
+  border-radius: 5px;
+}
+
+.quiz--option.correct {
+  background-color: var(--success--color);
+  color: var(--white);
+}
+
+.quiz--option.wrong {
+  background-color: var(--wrong--color);
+  color: var(--white);
+}
+
+.result--text {
+  margin-top: 1rem;
+  color: var(--grey-text);
+}
+
+.result--score {
+  font-weight: 600;
+  color: var(--black);
+}
