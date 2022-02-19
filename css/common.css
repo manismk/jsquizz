@@ -5,6 +5,8 @@
   --bg-color: #fefce8;
   --primary--color: #fea620;
   --primary--light: #fde68a;
+  --success--color: #047857;
+  --wrong--color: #dc2626;
 }
 
 body {
