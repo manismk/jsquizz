@@ -1,0 +1,12 @@
+.rules--container {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list {
+  margin-left: 1rem;
+  list-style: auto;
+}
